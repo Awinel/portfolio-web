@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio - Benjamin Huerta</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="scanlines"></div>
+
+    <header class="header">
+      <h1>BENJAMIN.HUERTA.EXE</h1>
+      <div class="subtitle">FULL WEB STACK DEVELOPER - LEVEL 26</div>
+    </header>
+
+    <div class="main-container">
+      <nav class="nav-panel">
+        <button class="nav-button active" data-tab="home">► HOME</button>
+        <button class="nav-button" data-tab="about">► ABOUT</button>
+        <button class="nav-button" data-tab="skills">► SKILLS</button>
+        <button class="nav-button" data-tab="projects">► PROJECTS</button>
+        <button class="nav-button" data-tab="contact">► CONTACT</button>
+        <button class="nav-button" data-tab="stats">► STATS</button>
+      </nav>
+
+      <main class="content-area">
+        <div class="tab-content active" id="home">
+          <div class="section-title">WELCOME TO MY DIGITAL REALM</div>
+          <div class="info-box">
+            <p style="font-size: 10px; line-height: 1.6; margin-bottom: 15px">
+              GREETINGS, FELLOW CODE WARRIOR! I'M A PASSIONATE FULL-STACK
+              DEVELOPER WHO TRANSFORMS CAFFEINE INTO ELEGANT CODE SOLUTIONS.
+            </p>
+            <p style="font-size: 8px; line-height: 1.6; color: #ffd966">
+              SPECIALIZING IN MODERN WEB TECHNOLOGIES, I BUILD SCALABLE
+              APPLICATIONS THAT USERS LOVE AND COMPUTERS UNDERSTAND. READY TO
+              LEVEL UP YOUR PROJECT?
+            </p>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link">GITHUB</a>
+            <a href="#" class="social-link">LINKEDIN</a>
+            <a href="#" class="social-link">X</a>
+            <a href="#" class="social-link">RESUME</a>
+          </div>
+        </div>
+
+        <div class="tab-content" id="about">
+          <div class="section-title">PLAYER BIOGRAPHY</div>
+          <div class="info-box">
+            <p style="font-size: 10px; line-height: 1.6; margin-bottom: 15px">
+              STARTED MY CODING JOURNEY 5 YEARS AGO WITH A SIMPLE "HELLO WORLD"
+              AND NEVER LOOKED BACK. NOW I'M EQUIPPED WITH MULTIPLE PROGRAMMING
+              LANGUAGES AND AN INSATIABLE CURIOSITY FOR NEW TECHNOLOGIES.
+            </p>
+            <p
+              style="
+                font-size: 8px;
+                line-height: 1.6;
+                color: #ffd966;
+                margin-bottom: 15px;
+              "
+            >
+              WHEN I'M NOT DEBUGGING CODE OR ARCHITECTING SOLUTIONS, YOU'LL FIND
+              ME EXPLORING THE LATEST FRAMEWORKS, CONTRIBUTING TO OPEN SOURCE,
+              OR MENTORING FELLOW DEVELOPERS IN THEIR CODING QUESTS.
+            </p>
+            <p style="font-size: 8px; line-height: 1.6">
+              MY MISSION: TO CREATE DIGITAL EXPERIENCES THAT ARE BOTH BEAUTIFUL
+              AND FUNCTIONAL, BRIDGING THE GAP BETWEEN DESIGN AND TECHNOLOGY.
+            </p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="skills">
+          <div class="section-title">SKILL TREE UNLOCKED</div>
+          <div class="info-box">
+            <p style="font-size: 8px; margin-bottom: 20px">
+              THESE ARE MY BATTLE-TESTED TECHNOLOGIES AND FRAMEWORKS:
+            </p>
+          </div>
+
+          <div class="skill-grid">
+            <div class="skill-item">JAVASCRIPT<br />★★★★★</div>
+            <div class="skill-item">REACT<br />★★★★★</div>
+            <div class="skill-item">NODE.JS<br />★★★★☆</div>
+            <div class="skill-item">PYTHON<br />★★★★☆</div>
+            <div class="skill-item">HTML/CSS<br />★★★★★</div>
+            <div class="skill-item">MONGODB<br />★★★☆☆</div>
+            <div class="skill-item">GIT<br />★★★★★</div>
+            <div class="skill-item">AWS<br />★★★☆☆</div>
+            <div class="skill-item">DOCKER<br />★★★☆☆</div>
+            <div class="skill-item">SQL<br />★★★★☆</div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="projects">
+          <div class="section-title">QUEST COMPLETED</div>
+
+          <div class="project-card">
+            <div class="project-title">E-COMMERCE PLATFORM</div>
+            <div class="project-desc">
+              FULL-STACK E-COMMERCE SOLUTION WITH REAL-TIME INVENTORY, PAYMENT
+              PROCESSING, AND ADMIN DASHBOARD.
+            </div>
+            <div class="project-tech">
+              REACT • NODE.JS • MONGODB • STRIPE API
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-title">TASK MANAGEMENT APP</div>
+            <div class="project-desc">
+              COLLABORATIVE PROJECT MANAGEMENT TOOL WITH REAL-TIME UPDATES, FILE
+              SHARING, AND TEAM COMMUNICATION FEATURES.
+            </div>
+            <div class="project-tech">
+              VUE.JS • EXPRESS • POSTGRESQL • SOCKET.IO
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-title">DATA VISUALIZATION DASHBOARD</div>
+            <div class="project-desc">
+              INTERACTIVE DASHBOARD FOR BUSINESS ANALYTICS WITH CUSTOM CHARTS
+              AND REAL-TIME DATA PROCESSING.
+            </div>
+            <div class="project-tech">D3.JS • PYTHON • FLASK • REDIS</div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="contact">
+          <div class="section-title">ESTABLISH CONNECTION</div>
+          <div class="info-box">
+            <p style="font-size: 8px; margin-bottom: 20px">
+              READY TO START YOUR NEXT PROJECT? LET'S CONNECT AND BUILD
+              SOMETHING AMAZING TOGETHER!
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label class="form-label">PLAYER NAME:</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="ENTER YOUR NAME"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">EMAIL ADDRESS:</label>
+              <input
+                type="email"
+                class="form-input"
+                placeholder="YOUR@EMAIL.COM"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">PROJECT DETAILS:</label>
+              <textarea
+                class="form-textarea"
+                rows="4"
+                placeholder="DESCRIBE YOUR PROJECT..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">SEND MESSAGE</button>
+          </form>
+        </div>
+
+        <div class="tab-content" id="stats">
+          <div class="section-title">PLAYER STATISTICS</div>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">PROJECTS<br />COMPLETED</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5</span>
+              <span class="stat-label">YEARS<br />EXPERIENCE</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">1000+</span>
+              <span class="stat-label">COMMITS<br />THIS YEAR</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">99%</span>
+              <span class="stat-label">CLIENT<br />SATISFACTION</span>
+            </div>
+          </div>
+
+          <div class="info-box" style="margin-top: 30px">
+            <p style="font-size: 8px; text-align: center">
+              "CODE IS LIKE HUMOR. WHEN YOU HAVE TO EXPLAIN IT, IT'S BAD."<br />
+              - CORY HOUSE
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navButtons = document.querySelectorAll(".nav-button");
+        const tabContents = document.querySelectorAll(".tab-content");
+
+        navButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const targetTab = this.getAttribute("data-tab");
+
+            // Remove active class from all buttons and tabs
+            navButtons.forEach((btn) => btn.classList.remove("active"));
+            tabContents.forEach((tab) => tab.classList.remove("active"));
+
+            // Add active class to clicked button and corresponding tab
+            this.classList.add("active");
+            document.getElementById(targetTab).classList.add("active");
+
+            // Add button click sound effect (visual feedback)
+            this.style.transform = "scale(0.95)";
+            setTimeout(() => {
+              this.style.transform = "";
+            }, 100);
+          });
+        });
+
+        // Add hover effects to skill items
+        const skillItems = document.querySelectorAll(".skill-item");
+        skillItems.forEach((item) => {
+          item.addEventListener("mouseenter", function () {
+            this.style.color = "#ffd966";
+          });
+
+          item.addEventListener("mouseleave", function () {
+            this.style.color = "#ffb000";
+          });
+        });
+
+        // Form submission handler
+        const contactForm = document.querySelector(".contact-form");
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Simple form validation and feedback
+          const inputs = this.querySelectorAll("input, textarea");
+          let allFilled = true;
+
+          inputs.forEach((input) => {
+            if (!input.value.trim()) {
+              allFilled = false;
+              input.style.borderColor = "#ff6600";
+            } else {
+              input.style.borderColor = "#ffb000";
+            }
+          });
+
+          if (allFilled) {
+            const button = this.querySelector(".btn-primary");
+            const originalText = button.textContent;
+            button.textContent = "MESSAGE SENT!";
+            button.style.background = "#ffd966";
+
+            setTimeout(() => {
+              button.textContent = originalText;
+              button.style.background = "#ffb000";
+              inputs.forEach((input) => (input.value = ""));
+            }, 2000);
+          }
+        });
+
+        // Add typing effect to the main title
+        const title = document.querySelector(".header h1");
+        const originalTitle = title.textContent;
+        title.textContent = "";
+
+        let i = 0;
+        const typeWriter = () => {
+          if (i < originalTitle.length) {
+            title.textContent += originalTitle.charAt(i);
+            i++;
+            setTimeout(typeWriter, 100);
+          }
+        };
+
+        setTimeout(typeWriter, 500);
+      });
+    </script>
+  </body>
+</html>
