@@ -341,3 +341,24 @@ body {
   font-size: 8px;
   color: var(--primary-color);
 }
+
+.footer-container {
+  background: var(--background-color);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-container img {
+  width: 100px;
+  height: 50px;
+  display: block;
+}
+
+.footer-container p {
+  font-size: 10px;
+  color: var(--primary-color);
+}
