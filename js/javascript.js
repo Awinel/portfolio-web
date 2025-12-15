@@ -22,6 +22,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  // Project card click handler
+  const projectCards = document.querySelectorAll(".project-card");
+  projectCards.forEach((card) => {
+    card.addEventListener("click", function () {
+      const link = this.getAttribute("data-link");
+      if (link) {
+        window.open(link, "_blank");
+      }
+    });
+  });
+
   // Add hover effects to skill items
   const skillItems = document.querySelectorAll(".skill-item");
   skillItems.forEach((item) => {
